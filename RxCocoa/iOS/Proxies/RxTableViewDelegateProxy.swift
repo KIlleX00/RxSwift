@@ -28,4 +28,10 @@ open class RxTableViewDelegateProxy
 
 extension RxTableViewDelegateProxy: UITableViewDelegate {}
 
+@objc extension RxTableViewDelegateProxy {
+    var text: String {
+        return String()
+    }
+}
+
 #endif

@@ -29,4 +29,10 @@ open class RxCollectionViewDelegateProxy
 
 extension RxCollectionViewDelegateProxy: UICollectionViewDelegateFlowLayout {}
 
+@objc extension RxCollectionViewDelegateProxy {
+    var text: String {
+        return String()
+    }
+}
+
 #endif
